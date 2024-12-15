@@ -10,7 +10,7 @@ import time
 from torch.utils.data import TensorDataset, DataLoader
 
 from H15_2_Train_Base import train_model, test_model, eval_model, load_model, print_training_progress, save_model
-from H15_6_MobileNet_Model import MobileNet
+from H15_7_MobileNet_Model import MobileNet
 
 def create_data_loader(batch_size):
     # 加载训练集

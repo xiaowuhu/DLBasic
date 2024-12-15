@@ -10,7 +10,7 @@ import time
 from torch.utils.data import TensorDataset, DataLoader
 
 from H15_2_Train_Base import train_model, eval_model, load_model
-from H15_5_ResNet_Model import ResNet18
+from H15_6_ResNet_Model import ResNet18
 
 def create_data_loader(batch_size):
     # 加载训练集

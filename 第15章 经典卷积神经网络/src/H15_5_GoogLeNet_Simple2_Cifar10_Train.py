@@ -10,7 +10,7 @@ import time
 from torch.utils.data import TensorDataset, DataLoader
 
 from H15_2_Train_Base import test_model, load_model, print_training_progress, print_test_progress, save_model, eval_model
-from H15_4_GoogLeNet_Model_Simple2 import GoogLeNet_Simple2
+from H15_5_GoogLeNet_Model_Simple2 import GoogLeNet_Simple2
 
 def create_data_loader(batch_size):
     # 加载训练集
